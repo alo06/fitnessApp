@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup_activity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="82dp"
+        android:fontFamily="@font/alata"
+        android:layout_height="30dp"
+        android:text="Routine"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="171dp"
+        android:layout_height="98dp"
+        android:gravity="center"
+        android:fontFamily="@font/alata"
+        android:text="Sign Up"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="216dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/alata"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309" />
+
+    <EditText
+        android:id="@+id/signUppassword"
+        android:layout_width="216dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="333dp"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:text="Personal Information"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/alata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="216dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Email"
+        android:fontFamily="@font/alata"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="82dp"
+        android:layout_height="30dp"
+        android:text="Gender"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/alata"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576" />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/alata"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/alata"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/Female"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/alata"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/Others"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/alata"
+            android:text="Others" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="174dp"
+        android:fontFamily="@font/alata"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Weight(in Kgs)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="174dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="Height(in cm)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <RadioGroup
+        android:id="@+id/routine"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/alata"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87">
+
+        <RadioButton
+            android:id="@+id/light"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/alata"
+            android:text="Light" />
+
+        <RadioButton
+            android:id="@+id/moderate"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/alata"
+            android:text="Moderate" />
+
+        <RadioButton
+            android:id="@+id/active"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/alata"
+            android:text="Active" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

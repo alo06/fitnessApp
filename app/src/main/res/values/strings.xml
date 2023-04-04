@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="welcome">Welcome To EZFIT</string>
+    <string name="signup">Don\'t have an account yet?</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="121dp"
+        android:layout_height="53dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/alata"
+        android:text="login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="365dp"
+        android:layout_height="235dp"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="#00BCD4"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="328dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="328dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="118dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:text="Forgot Password?"
+        android:fontFamily="@font/alata"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="210dp"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:fontFamily="@font/alata"
+        android:text="@string/signup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="72dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:fontFamily="@font/alata"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        android:textColor="#00BCD4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
