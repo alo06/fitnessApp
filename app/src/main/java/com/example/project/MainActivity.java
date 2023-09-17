@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         password=findViewById(R.id.password);
         login=findViewById(R.id.login);
         signup=findViewById(R.id.signup);
+
         dataBase=new DataBase(this);
         login.setOnClickListener(new View.OnClickListener() {
             @Override

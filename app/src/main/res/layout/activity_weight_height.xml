@@ -2,83 +2,83 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/cl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Signup_activity">
+    tools:context=".WeightHeight">
 
     <Button
-        android:id="@+id/btntogender"
+        android:id="@+id/btntoroutine"
         android:layout_width="117dp"
         android:layout_height="48dp"
         android:background="@drawable/round_button"
+        android:fontFamily="@font/alata"
         android:gravity="center"
         android:text="→"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.743" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="171dp"
-        android:layout_height="98dp"
-        android:fontFamily="@font/alata"
-        android:gravity="center"
-        android:text="Sign Up"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.768" />
 
     <EditText
-        android:id="@+id/name"
-        android:layout_width="216dp"
-        android:layout_height="52dp"
+        android:id="@+id/HeightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="@font/alata"
-        android:hint="User Name"
+        android:hint="Height(in cm)"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.57" />
 
-    <EditText
-        android:id="@+id/signUppassword"
-        android:layout_width="216dp"
-        android:layout_height="52dp"
-        android:ems="10"
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="337dp"
+        android:layout_height="85dp"
         android:fontFamily="@font/alata"
-        android:hint="Password"
-        android:inputType="textPassword"
+        android:gravity="center"
+        android:text="We Need your weight and height inorder to find the the BMI and also calorie requirement  for your body"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.611" />
+        app:layout_constraintVertical_bias="0.227" />
 
-    <EditText
-        android:id="@+id/emailTxt"
-        android:layout_width="216dp"
-        android:layout_height="51dp"
-        android:ems="10"
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="258dp"
+        android:layout_height="106dp"
         android:fontFamily="@font/alata"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:text="Weight Height"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintVertical_bias="0.044" />
+
+    <EditText
+        android:id="@+id/weightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="Weight(in kgs)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

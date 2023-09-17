@@ -1,5 +1,48 @@
 <resources>
     <string name="app_name">project</string>
-    <string name="welcome">Welcome To EZFIT</string>
+    <string name="welcome">EZFIT</string>
     <string name="signup">Don\'t have an account yet?</string>
+    <string name="salad">Salad\n567-686 calories
+    </string>
+    <string name="saladingredients">Mixed salad greens (2 cups),Chickpeas (1 cup, cooked),Cherry tomatoes (1/2 cup, halved),Cucumber (1/2 cup, sliced),Carrots (1/2 cup, shredded),Bell peppers (1/2 cup, sliced),Red onion (2 tablespoons, thinly sliced),Avocado (1/2 medium, diced),Almonds (2 tablespoons, sliced),Lemon juice (1 tablespoon),Olive oil (1 tablespoon),Salt and pepper to taste</string>
+    <string name="saladreciper">1) Start by washing the mixed salad greens and placing them in a large salad bowl.\n
+                                2) Rinse and drain the chickpeas. Add them to the salad bowl.\n
+                                3) Add the cherry tomatoes, cucumber, carrots, bell peppers, red onion, and diced avocado to the salad bowl.\n
+                                4) In a small bowl, whisk together lemon juice, olive oil, salt, and pepper to make the dressing.\n
+                                5) Drizzle the dressing over the salad and toss everything together until well coated.\n
+                                6) Sprinkle the sliced almonds on top of the salad for added crunch.\n
+                                7) Serve and enjoy!\n
+    </string>
+    <string name="ricebowl">Vegetable Rice Bowl\n 600-800 calories</string>
+    <string name="ricebowlingredients">Brown rice (1 cup, cooked),Red lentils (1 cup, cooked),Mixed vegetables (such as carrots, peas, bell peppers, and cauliflower) (2 cups),Onion (1, diced),Garlic cloves (3, minced),Ginger (1-inch piece, grated),Coconut milk (1 cup),Vegetable broth (1 cup),Curry powder (2 teaspoons),Turmeric powder (1/2 teaspoon),Cumin powder (1/2 teaspoon),Chili powder (optional, to taste),Olive oil (2 tablespoons),Salt and pepper to taste,Fresh cilantro (for garnish)</string>
+    <string name="ricebowlreciper"> Recipe:\n
+                                    1) In a large pot, heat olive oil over medium heat. Add the diced onion, minced garlic, and grated ginger. Sauté until the onion becomes translucent.\n
+                                    2) Add the mixed vegetables to the pot and cook for a few minutes until slightly tender.\n
+                                    3) Stir in the curry powder, turmeric powder, cumin powder, and chili powder (if using), and cook for another minute to release the flavors.\n
+                                    3) Add the cooked lentils, coconut milk, and vegetable broth to the pot. Season with salt and pepper.\n
+                                    4) Bring the mixture to a boil, then reduce the heat and simmer for 15-20 minutes, or until the vegetables are cooked and the flavors have melded together.\n
+                                    5) Serve the lentil and vegetable curry over cooked brown rice.\n
+                                    6) Garnish with fresh cilantro.\n
+                                    8) Enjoy!\n
+    </string>
+    <string name="vegchili">Black Bean And Veggie Chili\n 300-400 calories</string>
+    <string name="vegchiliingredients">Black beans (2 cups, cooked),Onion (1, chopped),Garlic (3 cloves, minced),Bell peppers (2, diced),Zucchini (1, diced),Canned tomatoes (1 can, diced),Vegetable broth (1 cup),Chili powder (2 tablespoons),Cumin (1 tablespoon),Paprika (1 tablespoon),Salt and pepper to taste,Olive oil (1 tablespoon),Sour cream (optional),Cheddar cheese (optional)</string>
+    <string name="vegchilireciper"> 1) Heat olive oil in a large pot over medium-high heat. Add chopped onions and minced garlic, and cook until the onions are translucent, about 5 minutes.\n
+                                    2) Add diced bell peppers and zucchini to the pot, and cook for another 5-7 minutes until they are slightly tender.\n
+                                    3) Add canned tomatoes, black beans, vegetable broth, chili powder, cumin, paprika, salt, and pepper to the pot. Stir well to combine.\n
+                                    4) Bring the mixture to a boil, then reduce the heat to low and simmer for 20-25 minutes or until the vegetables are fully cooked and the chili has thickened.\n
+                                    5) Serve hot, and garnish with sour cream and cheddar cheese if desired.\n
+    </string>
+    <string name="peanut">Peanut Butter Smoothie\n 480-620 calories</string>
+    <string name="peanutingredients">Banana (1, frozen),Greek yogurt (1/2 cup),Peanut butter (2 tablespoons),Cocoa powder (1 tablespoon),Almond milk (1/2 cup),Protein powder (1 scoop),Toppings of your choice (e.g., sliced banana, chopped nuts, shredded coconut, dark chocolate chips)</string>
+    <string name="peanutreciper">
+                                 1) In a blender, combine the frozen banana, Greek yogurt, peanut butter, cocoa powder, almond milk, and protein powder.\n
+                                 2) Blend until smooth and creamy. If the mixture is too thick, you can add more almond milk.\n
+                                 3) Pour the smoothie into a bowl.\n
+                                 4) Top the smoothie bowl with your desired toppings, such as sliced banana, chopped nuts, shredded coconut, or dark chocolate chips.\n
+                                 5) Enjoy your protein-packed chocolate peanut butter smoothie bowl as a satisfying and decadent dessert.\n</string>
+    <string name="step_counter_format">%1$d steps</string>
+    <string name="step_detector_format">%1$d steps</string>
+    <string name="COUNTER_SENSOR_NOT_PRESENT">Counter sensor not present</string>
+    <string name="DETECTOR_SENSOR_NOT_PRESENT">Counter sensor not present</string>
 </resources>

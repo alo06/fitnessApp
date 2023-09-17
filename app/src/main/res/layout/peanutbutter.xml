@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="700dp"
+    android:layout_gravity="center"
+    android:background="@drawable/popupbg"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="337dp"
+        android:layout_height="117dp"
+        android:layout_centerHorizontal="true"
+
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/peanut" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        android:layout_below="@id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/peanut"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        android:text="Ingredients:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_below="@id/textView7"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        android:layout_marginTop="0dp"
+        android:text="@string/peanutingredients" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="343dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        android:layout_below="@id/textView9"
+        android:text="@string/peanutreciper" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        android:layout_marginTop="0dp"
+        android:text="Recipe:
+"
+        android:textSize="16sp" />
+
+</RelativeLayout>
